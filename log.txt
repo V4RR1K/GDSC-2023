@@ -1,0 +1,11 @@
+commit 3090feb755da4197048fc4882f005993084e581e
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Oct 18 13:33:38 2022 -0400
+
+    Adding folders
+
+commit eff0064dcd8b9bd85197d7f864e53314140399c8
+Author: Greg_Lynskey <75799600+V4RR1K@users.noreply.github.com>
+Date:   Tue Oct 18 13:01:49 2022 -0400
+
+    Initial commit
