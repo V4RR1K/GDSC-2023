@@ -2,10 +2,10 @@
 Repo for the 2023 GDSC solution challenge team
 
 ### Members/Contact:
-Camilla Miquelina
-Mackenzie Wade
-Gregory Lynskey - gcl5615@rit.edu
-Alex Blair
+- Camilla Miquelina
+- Mackenzie Wade
+- Gregory Lynskey - gcl5615@rit.edu
+- Alex Blair
 
 
 ## Repo Structure
