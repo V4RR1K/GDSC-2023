@@ -10,6 +10,7 @@
   - Team based learning?
   - Simple projects?
 - Review team roles
+  - Project manager transfer, Cam getting more responsibility/organizing
 - Software setup
 - Plan Stand-ups to encourage progress 2x Weekly (9pm Tuesday, 9pm Thurs?)
   - In person? (Preferable)
@@ -19,6 +20,7 @@
 
 - Agree as a team on standards
 - Create Document/Link to document for reference
+- Git demo for review/consistent styling
 - Trello --> Cam manages, helps us monitor progress
 - Do we like VS live code?
 
