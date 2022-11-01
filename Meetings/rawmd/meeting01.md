@@ -20,6 +20,7 @@
 - Agree as a team on standards
 - Create Document/Link to document for reference
 - Trello --> Cam manages, helps us monitor progress
+- Do we like VS live code?
 
 ### Setting deadlines
 
