@@ -5,8 +5,8 @@ Welcome team!!
 ## Resources
 List of the Google Stack (What they use at google):
 - Apps and Data
-  - Python 
-  - Java
+  - Python: Greg
+  - Java: Greg
   - AngularJS
   - Android SDK
   - GoLang
@@ -19,7 +19,7 @@ List of the Google Stack (What they use at google):
   - LevelDB
 - Utilities (We should feature one or more of these in our project)
   - Google Analytics
-  - Google Maps
+  - Google Maps: (Greg)
   - App Annie
 - DevOps
   - Kubernetes
