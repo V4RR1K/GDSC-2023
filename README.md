@@ -16,9 +16,7 @@ Repo for the 2023 GDSC solution challenge team
 - Developer:        Mackenzie Wade      - mcw7034@rit.edu
 - Developer:        Gregory Lynskey     - gcl5615@rit.edu
 - Developer:        Alex Blair          - ajb2005@g.rit.edu
-- Shadowing:        Helen Lopez-Santos  - hs9166@rit.edu
-
--> In need of meeting notetaker (Helen?)
+- Front-End Dev:    Helen Lopez-Santos  - hs9166@rit.edu
 
 
 ## Repo Structure

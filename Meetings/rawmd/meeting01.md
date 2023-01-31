@@ -61,7 +61,7 @@
 
   - Stack:
     - Backend Database
-    - Transactional API - ZELL
+    - Transactional API - ZELLE
     - Angular Frontend
     - DBMS Backend
 
