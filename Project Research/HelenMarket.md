@@ -18,6 +18,6 @@
 
 ## App Features
 
-### Comments
+## Comments
 - Further Ideas: 
 -   1. In the "Community" part of the app: farmers/markets/donors will be able to tell their stories and also have a form of communication with those around them. This will further educate the community by them teaching themselves. 
