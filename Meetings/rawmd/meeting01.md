@@ -41,10 +41,11 @@
     - Mission Statement
 
   - Domain Model: "Indeed for Farming"
-    - Account Type
+    - Account Users
       - Farmer
-      - Market Owner
-      - Donor
+      - Market Owner (User/Host)
+      - Customer
+      ~ Donor
     - View:
       - Slides of farms (Top Border)
       - Search Bar
