@@ -11,22 +11,45 @@ Mackenzie:
 Cam:
 
 Greg:
-  Strengths:
+- Strengths
   - Java
-  - C
-  - OOP Architecture
-  - UML/Domain Modeling
-  - Clean Code
-  Weaknesses:
-  - Python
-  - Weak Typing (OW)
-  Opportunities:
+  - 
+- Weaknesses
+- Opportunities
   - R
-  - Angular
-  - Google Maps
-  - React
-  - SQL
-  Threats:
-  - Frontend/Making it look nice
-  - Scheduling
-  - (I have a ton of school work so that may inhibit my ability to work)
+- Threats
+
+
+
+# Domain Refining/Tailoring
+
+- GOal: Double Agricultureal Productivity
+  - App DOmain: COnnect Farmers to Markets and Vice Versa
+    - Donor (Amazon Wishlist style application use)
+    - Mission Statement
+
+  - Domain Model: "Indeed for Farming"
+    - Account Domain (Features)
+      - Farmer
+      - Market Owner (User/Host)
+      - Customer
+      
+    - View:
+      - Slides of farms (Top Border)
+      - Search Bar
+        - Differs on Account Type
+          - Farmer: Search For Markets (Filter on area, food types)
+          - Market: Search for farmers items
+            - Must show current looking for x, y, z
+          - Donor: Search for farmers in price range....
+      - Promotional Stories
+      - Bottom Pane
+        - Search Bar Access
+        - Messages System
+        - Personal Profile
+
+  - Stack:
+    - Backend Database
+    - Angular Frontend
+    - DBMS Backend
+
