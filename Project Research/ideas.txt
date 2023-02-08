@@ -1,0 +1,43 @@
+Flush clone for recycling
+
+UN Goal Targeted:
+- 12.7: Promote sustainable public procurement practices
+  - https://sdg-tracker.org/sustainable-consumption-production#12.7
+
+- 12.8: Promote universal understanding of sustainable lifestyles
+  - https://sdg-tracker.org/sustainable-consumption-production#12.8
+
+Basic App Concept:
+- Precision Recycling
+
+Advanced:
+- Point System
+  - Cute things always sell
+- What you are recycling? 
+- Can it be recycled
+
+
+Farmers Market
+
+UN Goal Targeted:
+- 2.1: Universal access to safe and nutritious food
+  - https://sdg-tracker.org/zero-hunger#2.1
+
+- 2.3: Double the productivity and incomes of small-scale food producers
+  - https://sdg-tracker.org/zero-hunger#2.3
+
+- 12.2: Sustainable management and use of natural resources
+  - https://sdg-tracker.org/sustainable-consumption-production#12.2
+
+- 12.8: Promote universal understanding of sustainable lifestyles
+  - https://sdg-tracker.org/sustainable-consumption-production#12.8
+
+Basic App Concept:
+- Easy to access farmers markets
+
+Advanced:
+- Definition of a market
+- Community Function (Deploy on Rochester First)
+
+
+Foster Cat App
