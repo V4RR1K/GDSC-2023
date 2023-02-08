@@ -5,9 +5,8 @@ Repo for the 2023 GDSC solution challenge team
 
 ## Team Goal
 
-- Create an application using google technology to help solve one of the UN's 17 sustabibility issues
-- Ideas:
-    - Create an application using google maps technology that maps fish density to encourage sustainable fishing processes
+// Todo:
+- Redefine Scope
 
 
 ## Members, Roles, Contact:
@@ -16,7 +15,7 @@ Repo for the 2023 GDSC solution challenge team
 - Developer:        Mackenzie Wade      - mcw7034@rit.edu
 - Developer:        Gregory Lynskey     - gcl5615@rit.edu
 - Developer:        Alex Blair          - ajb2005@g.rit.edu
-- Front-End Dev:    Helen Lopez-Santos  - hs9166@rit.edu
+- Developer:        Helen Lopez-Santos  - hs9166@rit.edu
 
 
 ## Repo Structure

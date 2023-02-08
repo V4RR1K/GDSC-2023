@@ -1,3 +1,151 @@
+commit 634cd8e67e1821af36a80dffcbbc1f1c69708f80
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Tue Feb 7 21:02:58 2023 -0500
+
+    Greg: Added swot folder
+
+commit 52a428d0a460341896301d069d65225f56a4968e
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Tue Feb 7 20:59:01 2023 -0500
+
+    Greg: Finalized ideas pushing ideas doc
+
+commit eb2a53eb2b4aa26113602d2aad87d4213798ade2
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Thu Feb 2 21:55:31 2023 -0500
+
+    Greg: Missed one file
+
+commit af16645c0733286af5e39a52e41456ee186c4cf1
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Thu Feb 2 21:54:55 2023 -0500
+
+    Greg: Updated after meeting 01
+
+commit f3837c464d12a98dac2b1c6f6f4233c56a1cc624
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Wed Feb 1 10:00:22 2023 -0500
+
+    Greg: Updated SWOT
+
+commit d8f8c9fbc17a61abfd19e755765c1ecc36002941
+Author: helen <97480392+hs9166@users.noreply.github.com>
+Date:   Mon Jan 30 19:46:24 2023 -0500
+
+    Update HelenMarket.md
+
+commit a57b40dc6045ed9683d82315aea3bcffcb25c20a
+Author: Helen Katherine <helenkatherine@helens-mbp.wireless.rit.edu>
+Date:   Mon Jan 30 19:43:30 2023 -0500
+
+    Helen's updates
+
+commit a2a9717ef0ef7efd68fa1c151eaf5bb8fe130851
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Thu Jan 26 21:56:42 2023 -0500
+
+    Ready for tuesday meeting
+
+commit 2ef56bf79035175924bffa14fea8fb635c9462e2
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Thu Jan 26 21:11:17 2023 -0500
+
+    Helen Presentation meeting 01
+
+commit d958f8be595f20a526b1a3b45c4464a1f9981b36
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Thu Jan 26 13:58:58 2023 -0500
+
+    prepping for meeting 1/26/23
+
+commit f97569455abff384019282611c9d186fdc6a55b0
+Author: Camilla Miquelina <55150080+cm3173@users.noreply.github.com>
+Date:   Fri Jan 20 14:10:43 2023 -0500
+
+    Update README.md
+
+commit 8297e27d2f15a5dba678e2453e19cd1ce189cc3c
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Thu Jan 19 20:52:38 2023 -0500
+
+    Added meeting notes 00 for base meeting
+
+commit 5de990bd9738cc953aae29d59965a701d2ddae09
+Author: Greg Lynskey <gclynskey@outlook.com>
+Date:   Wed Nov 23 17:05:39 2022 -0500
+
+    Testing
+
+commit 5028a531f57a583dbb865f2501742c2aafea419d
+Author: helen <97480392+hs9166@users.noreply.github.com>
+Date:   Tue Nov 1 21:46:35 2022 -0400
+
+    Update README.md
+
+commit d968067888d4f8fb92ddedb30b9d60a700416281
+Author: AlexBlair16 <89497101+AlexBlair16@users.noreply.github.com>
+Date:   Tue Nov 1 21:42:34 2022 -0400
+
+    Update README.md
+
+commit 5cff5f7083a219b7d6545c13cc04744b985f54bc
+Author: Greg_Lynskey <75799600+V4RR1K@users.noreply.github.com>
+Date:   Tue Nov 1 15:10:52 2022 -0400
+
+    Update meeting01.md
+    
+    Updated meeting one notes
+
+commit aeae29cdb91bd9b8056e801ff7297c9c82c290c9
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Nov 1 15:06:52 2022 -0400
+
+    Thought about live code, added to meeting notes
+
+commit 5217e8caa0887d4bb9d3aed4bd6e1f8ac71b8b88
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Nov 1 14:48:58 2022 -0400
+
+    Added meeting folder and organized first meeting, Added to the README
+
+commit f54104acd95030b8fec0872b0c9aa6925f2b8cf8
+Author: Gregory Lynskey <greglynskey@Gregorys-MacBook-Air-2.local>
+Date:   Fri Oct 21 01:37:27 2022 -0400
+
+    Added Team Goal to ReadMe
+
+commit 4a2e4f385d739f6cb188d320f5c54b5c91b36316
+Author: Mackenzie Wade <60366161+MackWade@users.noreply.github.com>
+Date:   Thu Oct 20 09:26:27 2022 -0400
+
+    Update README.md
+    
+    added my email
+
+commit e2feb7bc5ec8adc5cf418f0f74964d6d64f844f7
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Oct 18 13:44:44 2022 -0400
+
+    Roles assigned
+
+commit 4c53dd4d48dcc33579792fde268cd04b2077bab4
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Oct 18 13:38:42 2022 -0400
+
+    Sending repo to other members
+
+commit 632760d98b550ec1f328f3b3d0bd6c9a5abf5ebb
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Oct 18 13:38:02 2022 -0400
+
+    Formatting issue
+
+commit 41e3ce66e739b0fd150811e0469dc607214ac1ab
+Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
+Date:   Tue Oct 18 13:37:11 2022 -0400
+
+    Creating Git log and Updating README.md
+
 commit 3090feb755da4197048fc4882f005993084e581e
 Author: Gregory Lynskey <greglynskey@gregorys-air-2.wireless.rit.edu>
 Date:   Tue Oct 18 13:33:38 2022 -0400
