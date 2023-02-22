@@ -42,47 +42,84 @@ public class User {
         this.isAdmin = isAdmin;
     }
 
-
+    /**
+     * get user id
+     * @return user id
+     */
     public int getId() {
         return this.id;
     }
-
+    /**
+     * set user id
+     */
     public void setId(int id) {
         this.id = id;
     }
 
+    /**
+     * get userName
+     * @return username
+     */
     public String getUserName() {
         return this.userName;
     }
 
+    /**
+     * set userName
+     */
     public void setUserName(String userName) {
         this.userName = userName;
     }
 
+    /**
+     * get password
+     * @return password
+     */
     public String getPassword() {
         return this.password;
     }
 
+    /**
+     * set password
+     */
     public void setPassword(String password) {
         this.password = password;
     }
 
+    /**
+     * get Added Locations
+     * @return added locations
+     */
     public String getAddedLocations() {
         return this.addedLocations;
     }
 
+    /**
+     * set Added Locations
+     */
     public void setAddedLocations(String addedLocations) {
         this.addedLocations = addedLocations;
     }
 
+    /**
+     * check if isAdmin
+     * @return true if admin, false if not
+     */
     public Boolean isIsAdmin() {
         return this.isAdmin;
     }
 
+    /**
+     * get isAdmin
+     * @return isAdmin
+     */
     public Boolean getIsAdmin() {
         return this.isAdmin;
     }
 
+    /**
+     * set isAdmin
+     */
     public void setIsAdmin(Boolean isAdmin) {
         this.isAdmin = isAdmin;
     }
