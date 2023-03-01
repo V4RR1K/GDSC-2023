@@ -11,7 +11,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class User {
     
-    static final String FORMAT_STR = "User[id=%d, userName=%s, password=%s, addedLocations=%s, isAdmin=%b]";
+    static final String FORMAT_STR =
+            "User[id=%d, userName=%s, password=%s, addedLocations=%s, isAdmin=%b]";
 
     @JsonProperty("id")
     private int id;
@@ -23,7 +24,7 @@ public class User {
     private String password;
 
     @JsonProperty("addedLocations") // TODO: update once location model is created
-    private String addedLocations;
+    private RecycleNode addedLocations;
 
     @JsonProperty("isAdmin")
     private Boolean isAdmin;
