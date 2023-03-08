@@ -16,16 +16,25 @@
 
 ## Models
 
-- Location
+- RecyclePoint
   - Latitude
   - Type of Recyclables
   - Longitude
   - Image
   - Name
   - Description
+  - Comments (From Users)
 - Google Map
   - Locations
+- User Account
+  - Username
+  - Password
+  - Logged Points
+  - Current location
   
 
 ## Frontend Ideas
 - Tab for info/learning
+- Mock data to progress as we progress (Make frontend and backend at the same time)
+- Mini View (List): Photo, Name, Proximity, Rating
+  - Expanded View: More Details + Description
