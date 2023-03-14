@@ -1,4 +1,5 @@
 package com.recycleracoon.RecycleRacoonAPI.Persistence;
 
-public class UserFileDAO {
+public class UserFileDAO implements UserDAO{
+
 }
