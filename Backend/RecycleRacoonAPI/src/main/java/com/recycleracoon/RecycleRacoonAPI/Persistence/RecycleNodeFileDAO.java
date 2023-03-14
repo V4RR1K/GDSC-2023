@@ -77,7 +77,9 @@ public class RecycleNodeFileDAO implements RecycleNodeDAO {
      */
     @Override
     public RecycleNode[] getRecycleNodes() throws IOException {
-        return new RecycleNode[0];
+        synchronized(recycleNodes){
+            return getNodeArray();
+        }
     }
 
     /**
@@ -89,7 +91,13 @@ public class RecycleNodeFileDAO implements RecycleNodeDAO {
      */
     @Override
     public RecycleNode getRecycleNode(int id) throws IOException {
-        return null;
+        synchronized(recycleNodes){
+            if (recycleNodes.containsKey(id)){
+                return recycleNodes.get(id);
+            } else {
+                return null;
+            }
+        }
     }
 
     /**
@@ -101,7 +109,17 @@ public class RecycleNodeFileDAO implements RecycleNodeDAO {
      */
     @Override
     public RecycleNode createRecycleNode(RecycleNode newNode) throws IOException {
-        return null;
+        synchronized(recycleNodes){
+            RecycleNode node = new RecycleNode(nextId(),
+                    newNode.getName(),
+                    newNode.getDescription(),
+                    newNode.getPhotoName(),
+                    newNode.getGoogleNode(),
+                    newNode.getType());
+            recycleNodes.put(node.getId(), node);
+            save();
+            return node;
+        }
     }
 
     /**
@@ -113,7 +131,15 @@ public class RecycleNodeFileDAO implements RecycleNodeDAO {
      */
     @Override
     public RecycleNode updateRecycleNode(RecycleNode updatedNode) throws IOException {
-        return null;
+        synchronized(recycleNodes){
+            if (!recycleNodes.containsKey(updatedNode.getId())){
+                return null;
+            } else {
+                recycleNodes.put(updatedNode.getId(), updatedNode);
+                save();
+                return updatedNode;
+            }
+        }
     }
 
     /**
@@ -125,6 +151,13 @@ public class RecycleNodeFileDAO implements RecycleNodeDAO {
      */
     @Override
     public boolean deleteRecycleNode(int id) throws IOException {
-        return false;
+        synchronized(recycleNodes){
+            if (recycleNodes.containsKey(id)){
+                recycleNodes.remove(id);
+                return save();
+            } else {
+                return false;
+            }
+        }
     }
 }
