@@ -24,7 +24,7 @@ public class User {
     private String password;
 
     @JsonProperty("addedLocations") // TODO: update once location model is created
-    private RecycleNode addedLocations;
+    private String addedLocations;
 
     @JsonProperty("isAdmin")
     private Boolean isAdmin;

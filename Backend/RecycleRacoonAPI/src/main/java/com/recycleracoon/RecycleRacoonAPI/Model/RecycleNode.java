@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class RecycleNode {
 
     static final String FORMAT_STR =
-            "RecycleNode[id=%d, name=%s, description=%s, photoName=%s, googleNode=%s, type=%s]"
+            "RecycleNode[id=%d, name=%s, description=%s, photoName=%s, googleNode=%s, type=%s]";
 
     @JsonProperty("id")
     private int id;
