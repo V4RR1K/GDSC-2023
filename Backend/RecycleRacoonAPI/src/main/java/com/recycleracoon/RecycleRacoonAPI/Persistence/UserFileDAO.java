@@ -75,7 +75,9 @@ public class UserFileDAO implements UserDAO {
      */
     @Override
     public User[] getUsers() throws IOException {
-        return new User[0];
+        synchronized(users){
+            return getUserArray();
+        }
     }
 
     /**
@@ -87,7 +89,13 @@ public class UserFileDAO implements UserDAO {
      */
     @Override
     public User getUser(int id) throws IOException {
-        return null;
+        synchronized (users){
+            if (users.containsKey(id)){
+                return users.get(id);
+            } else {
+                return null;
+            }
+        }
     }
 
     /**
@@ -99,7 +107,16 @@ public class UserFileDAO implements UserDAO {
      */
     @Override
     public User createUser(User newUser) throws IOException {
-        return null;
+        synchronized (users) {
+            User user = new User(nextId(),
+                    newUser.getUserName(),
+                    newUser.getPassword(),
+                    newUser.getAddedLocations(),
+                    newUser.getIsAdmin());
+            users.put(user.getId(), user);
+            save();
+            return user;
+        }
     }
 
     /**
@@ -112,7 +129,15 @@ public class UserFileDAO implements UserDAO {
      */
     @Override
     public User updateUser(User updatedUser) throws IOException {
-        return null;
+        synchronized (users){
+            if (!users.containsKey(updatedUser.getId())){
+                return null;
+            } else {
+                users.put(updatedUser.getId(), updatedUser);
+                save();
+                return updatedUser;
+            }
+        }
     }
 
     /**
@@ -124,6 +149,13 @@ public class UserFileDAO implements UserDAO {
      */
     @Override
     public boolean deleteUser(int id) throws IOException {
-        return false;
+        synchronized (users){
+            if (users.containsKey(id)){
+                users.remove(id);
+                return save();
+            } else {
+                return false;
+            }
+        }
     }
 }
