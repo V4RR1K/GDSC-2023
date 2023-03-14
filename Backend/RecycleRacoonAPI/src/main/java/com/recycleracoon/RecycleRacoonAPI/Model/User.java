@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * User class represents user entity information
  * 
- * @author: Greg Lynskey, Mackenzie Wade
+ * @author: Greg Lynskey
  * @category: Model Tier
  */
 public class User {
