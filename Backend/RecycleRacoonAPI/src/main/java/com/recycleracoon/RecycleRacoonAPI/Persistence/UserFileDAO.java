@@ -1,9 +1,11 @@
 package com.recycleracoon.RecycleRacoonAPI.Persistence;
 
 import com.recycleracoon.RecycleRacoonAPI.Model.User;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+@Component
 public class UserFileDAO implements UserDAO {
 
     /**
