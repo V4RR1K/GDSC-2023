@@ -20,7 +20,7 @@ public class RecycleNodeFileDAO implements RecycleNodeDAO {
     private static int nextId;
     private final String filename;
 
-    public RecycleNodeFileDAO(@Value("${users.file}") String filename,
+    public RecycleNodeFileDAO(@Value("${recyclenode.file}") String filename,
                               ObjectMapper objectMapper) throws IOException {
         this.objectMapper = objectMapper;
         this.filename = filename;
