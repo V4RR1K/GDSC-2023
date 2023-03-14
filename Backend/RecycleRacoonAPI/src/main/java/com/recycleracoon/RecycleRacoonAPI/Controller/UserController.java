@@ -29,7 +29,7 @@ public class UserController {
         LOG.info("GET /users/" + id);
         try{
             User user = userDao.getUser(id);
-            if (user == null) {
+            if (user != null) {
                 return new ResponseEntity<User>(user, HttpStatus.OK);
             } else {
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
