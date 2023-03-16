@@ -86,7 +86,7 @@ public class UserController {
 
     @DeleteMapping("")
     public ResponseEntity<User> deleteUser (@RequestBody User user) {
-        LOG.info("PUT /users/" + user);
+        LOG.info("DELETE /users/" + user);
         try {
             boolean deleted = userDao.deleteUser(user.getId());
             if (deleted) {
