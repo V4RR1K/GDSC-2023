@@ -1,0 +1,8 @@
+[{
+  "id": 0,
+  "name": "Rochester",
+  "description" : "first node",
+  "photoName" : "blah",
+  "googleNode" : "exists",
+  "type" : "PLASTIC"
+}]
