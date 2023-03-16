@@ -58,7 +58,7 @@ public class UserController {
         try {
             User newUser = userDao.createUser(user);
             if (newUser != null){
-                return new ResponseEntity<User>(user, HttpStatus.CREATED);
+                return new ResponseEntity<User>(newUser, HttpStatus.CREATED);
             } else {
                 return new ResponseEntity<>(HttpStatus.CONFLICT);
             }
@@ -74,7 +74,7 @@ public class UserController {
         try {
             User newUser = userDao.updateUser(user);
             if (newUser != null){
-                return new ResponseEntity<User>(user, HttpStatus.CREATED);
+                return new ResponseEntity<User>(newUser, HttpStatus.CREATED);
             } else {
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             }
