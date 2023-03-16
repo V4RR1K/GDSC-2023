@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("Users")
+@RequestMapping("users")
 public class UserController {
     private static final Logger LOG = Logger.getLogger(UserController.class.getName());
     private UserDAO userDao;
@@ -54,7 +54,7 @@ public class UserController {
 
     @PostMapping()
     public ResponseEntity<User> createUser(@RequestBody User user){
-        LOG.info("POST /products/" + user);
+        LOG.info("POST /users/" + user);
         try {
             User newUser = userDao.createUser(user);
             if (newUser != null){
@@ -67,6 +67,24 @@ public class UserController {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @PutMapping("")
+    public ResponseEntity<User> updateUser(@RequestBody User user){
+        LOG.info("PUT /users/" + user);
+        try {
+            User newUser = userDao.updateUser(user);
+            if (newUser != null){
+                return new ResponseEntity<User>(user, HttpStatus.CREATED);
+            } else {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
+        } catch (IOException e){
+            LOG.log(Level.SEVERE, e.getLocalizedMessage());
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    //@DeleteMapping("")
 
 
 }
