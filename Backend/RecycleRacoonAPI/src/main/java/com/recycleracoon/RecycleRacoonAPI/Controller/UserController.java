@@ -84,7 +84,20 @@ public class UserController {
         }
     }
 
-    //@DeleteMapping("")
-
+    @DeleteMapping("")
+    public ResponseEntity<User> deleteUser (@RequestBody User user) {
+        LOG.info("PUT /users/" + user);
+        try {
+            boolean deleted = userDao.deleteUser(user.getId());
+            if (deleted) {
+                return new ResponseEntity<User>(user, HttpStatus.CREATED);
+            } else {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
+        } catch (IOException e) {
+            LOG.log(Level.SEVERE, e.getLocalizedMessage());
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 
 }
