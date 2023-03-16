@@ -1,14 +1,10 @@
 package com.recycleracoon.RecycleRacoonAPI.Controller;
 
-
 import com.recycleracoon.RecycleRacoonAPI.Model.User;
 import com.recycleracoon.RecycleRacoonAPI.Persistence.UserDAO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -39,4 +35,38 @@ public class UserController {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @GetMapping("")
+    public ResponseEntity<User[]> getUsers(){
+        LOG.info("GET /users/");
+        try{
+            User[] users = userDao.getUsers();
+            if (users != null) {
+                return new ResponseEntity<User[]>(users, HttpStatus.OK);
+            } else {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
+        } catch (IOException e) {
+            LOG.log(Level.SEVERE, e.getLocalizedMessage());
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @PostMapping()
+    public ResponseEntity<User> createUser(@RequestBody User user){
+        LOG.info("POST /products/" + user);
+        try {
+            User newUser = userDao.createUser(user);
+            if (newUser != null){
+                return new ResponseEntity<User>(user, HttpStatus.CREATED);
+            } else {
+                return new ResponseEntity<>(HttpStatus.CONFLICT);
+            }
+        } catch (IOException e){
+            LOG.log(Level.SEVERE, e.getLocalizedMessage());
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+
 }
