@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from "./home/home.component";
+import {SearchpgComponent} from "./searchpg/searchpg.component";
 
 const routes: Routes = [
   {
@@ -9,6 +10,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {path:'home-component', component: HomeComponent},
+  {path:'searchpg-component', component: SearchpgComponent},
 ];
 
 @NgModule({
