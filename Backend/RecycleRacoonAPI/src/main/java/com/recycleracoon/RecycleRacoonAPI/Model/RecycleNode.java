@@ -1,6 +1,9 @@
 package com.recycleracoon.RecycleRacoonAPI.Model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.squareup.okhttp.*;
+
+import java.io.IOException;
 
 public class RecycleNode {
 
@@ -90,7 +93,7 @@ public class RecycleNode {
         this.type = type;
     }
 
-    public Response testHttp(){
+    public Response testHttp() throws IOException {
         OkHttpClient client = new OkHttpClient().newBuilder()
           .build();
         MediaType mediaType = MediaType.parse("text/plain");
