@@ -11,6 +11,9 @@ import { SearchpgComponent } from './searchpg/searchpg.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from "@angular/material/select";
 import {MatInputModule} from '@angular/material/input';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import {MatTabsModule} from "@angular/material/tabs";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -18,6 +21,7 @@ import {MatInputModule} from '@angular/material/input';
     NavbarComponent,
     HomeComponent,
     SearchpgComponent,
+    SignUpComponent,
 
   ],
   imports: [
@@ -28,7 +32,9 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatTabsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
