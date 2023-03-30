@@ -1,15 +1,27 @@
-<mat-form-field appearance="fill">
-  <mat-label>Input</mat-label>
-  <input matInput>
-</mat-form-field>
-<mat-form-field appearance="fill">
-  <mat-label>Select</mat-label>
-  <mat-select>
-    <mat-option value="one">First option</mat-option>
-    <mat-option value="two">Second option</mat-option>
-  </mat-select>
-</mat-form-field>
-<mat-form-field appearance="fill">
-  <mat-label>Textarea</mat-label>
-  <textarea matInput></textarea>
-</mat-form-field>
+
+<div class ="class1" >
+
+  <div class = "center">
+    <mat-card class="card" >
+      <mat-card-title class="cardTitle">Find Location</mat-card-title>
+      <form class="card-form">
+        <div>
+          <mat-form-field class="field-size">
+            <input matInput placeholder="Street*" >
+          </mat-form-field>
+          <mat-form-field class="field-size">
+            <input matInput placeholder="City*" >
+          </mat-form-field>
+          <mat-form-field class="field-size">
+            <input matInput placeholder="State*" >
+          </mat-form-field>
+          <button class = "exc-button" mat-fab extended>
+            Find Nearest Recycle Center
+          </button>
+        </div>
+      </form>
+    </mat-card>
+  </div>
+
+</div>
+
