@@ -1,0 +1,37 @@
+.slogan{
+  font-weight: bold;
+  font-size: 65px;
+  margin-bottom: 5%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.center{
+  padding-top: 0%;
+}
+
+.shrinkDiv{
+  width: 50%
+}
+
+.homeButton1{
+  margin-left: 10%;
+}
+
+.homeButton2{
+  margin-left: 20%;
+}
+
+.summary{
+  margin-left: 10%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.raccoonL{
+  max-width:80%;
+  max-height: 80%;
+  float: right;
+}
+
