@@ -14,6 +14,7 @@ import {MatInputModule} from '@angular/material/input';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import {MatTabsModule} from "@angular/material/tabs";
 import {MatCardModule} from "@angular/material/card";
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatCardModule} from "@angular/material/card";
     HomeComponent,
     SearchpgComponent,
     SignUpComponent,
+    AboutUsComponent,
 
   ],
   imports: [
