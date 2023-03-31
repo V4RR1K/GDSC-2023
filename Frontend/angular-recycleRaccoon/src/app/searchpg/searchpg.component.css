@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.class1 {
+  background-image: url(src/assets/blurredPlace.jpg);
+  width: 100%;
+  height: 800px;
+}
+.card{
+  background: white;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.center{
+  padding-top: 15%;
+
+}
+
+.cardTitle{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-form{
+ padding-top: 5%;
+  margin-left: 80px
+}
+
+.exc-button{
+  width: 300px;
+ margin-left: -10%;
+}

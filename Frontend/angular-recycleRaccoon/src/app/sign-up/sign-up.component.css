@@ -1,0 +1,41 @@
+.card{
+  background: white;
+  width: 60%;
+  height: 600px;
+  display: flex;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+.center{
+  padding-top: 10%;
+  margin-left: 30%;
+
+}
+
+.cardTitle{
+  padding-top: 10%;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-form{
+  padding-top: 10%;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: 16%;
+  background-color: white;
+}
+
+.field-size{
+  width: 70%;
+  padding-left: 13%;
+}
+
+.exc-button{
+  width: 300px;
+  margin-left: 17.5%;
+
+}
