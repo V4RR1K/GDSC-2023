@@ -10,9 +10,12 @@
 }
 
 .shrinkDiv{
-  width: 50%
+  width: 60%
 }
 
+.people{
+  margin-left:10%;
+}
 .homeButton1{
   margin-left: 10%;
 }
