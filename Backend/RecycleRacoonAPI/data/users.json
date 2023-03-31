@@ -1,0 +1,35 @@
+[{
+  "id": 0,
+  "userName": "Greg",
+  "password" : "cats",
+  "addedLocations" : "null",
+  "isAdmin": true
+},{
+  "id": 1,
+  "userName": "Mackenzie",
+  "password" : "cats",
+  "addedLocations" : "null",
+  "isAdmin": true
+}
+,{
+  "id": 2,
+  "userName": "Helen",
+  "password" : "cats",
+  "addedLocations" : "null",
+  "isAdmin": true
+}
+,{
+  "id": 3,
+  "userName": "Cam",
+  "password" : "cats",
+  "addedLocations" : "null",
+  "isAdmin": true
+}
+,{
+  "id": 4,
+  "userName": "Alex",
+  "password" : "cats",
+  "addedLocations" : "null",
+  "isAdmin": true
+}
+]
