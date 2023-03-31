@@ -4,6 +4,7 @@
   margin-bottom: 5%;
   padding-top: 10%;
   padding-left: 10%;
+  color: green;
 }
 .center{
   padding-top: 0%;
@@ -39,5 +40,11 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
+}
+
+.bottomboy{
+  padding-bottom: 20%;
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
