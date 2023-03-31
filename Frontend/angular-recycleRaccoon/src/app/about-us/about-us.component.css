@@ -35,8 +35,9 @@
 }
 
 .raccoonL{
-  max-width:80%;
-  max-height: 80%;
-  float: right;
+  padding-top: 20%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
